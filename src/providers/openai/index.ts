@@ -8,24 +8,24 @@ const providerOpenAI = () => {
   const provider: Provider = {
     id: 'provider-openai',
     icon: 'i-simple-icons-openai', // @unocss-include
-    name: 'OpenAI',
+    name: '模型设置',
     globalSettings: [
       {
         key: 'apiKey',
-        name: 'API Key',
+        name: 'api密钥',
         type: 'api-key',
       },
       {
         key: 'baseUrl',
-        name: 'Base URL',
-        description: 'Custom base url for OpenAI API.',
+        name: 'api地址',
+        description: '',
         type: 'input',
-        default: 'https://api.openai.com',
+        default: 'https://openai.451024.xyz',
       },
       {
         key: 'model',
-        name: 'OpenAI model',
-        description: 'Custom gpt model for OpenAI API.',
+        name: '选择模型',
+        description: '',
         type: 'select',
         options: [
           { value: 'gpt-3.5-turbo', label: 'gpt-3.5-turbo' },
@@ -76,19 +76,19 @@ const providerOpenAI = () => {
       {
         id: 'chat_continuous',
         type: 'chat_continuous',
-        name: 'Continuous Chat',
+        name: '连续对话',
         settings: [],
       },
       {
         id: 'chat_single',
         type: 'chat_single',
-        name: 'Single Chat',
+        name: '单次对话',
         settings: [],
       },
       {
         id: 'image_generation',
         type: 'image_generation',
-        name: 'DALL·E',
+        name: 'DALL·E（AI绘画）',
         settings: [],
       },
     ],

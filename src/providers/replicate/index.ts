@@ -5,11 +5,11 @@ const providerReplicate = () => {
   const provider: Provider = {
     id: 'provider-replicate',
     icon: 'i-carbon-replicate', // @unocss-include
-    name: 'Replicate',
+    name: 'AI绘画设置',
     globalSettings: [
       {
         key: 'token',
-        name: 'Replicate API token',
+        name: '第三方AI绘画账号',
         type: 'api-key',
       },
     ],

@@ -59,7 +59,7 @@ export const zhCN = {
     },
     empty: '暂无数据',
     send: {
-      placeholder: '输入内容...',
+      placeholder: '请输入你想问的问题吧...公众号：正经人王同学 微信：zjrwtxdaydayup',
       button: '发送',
     },
     copyed: '已拷贝!',
