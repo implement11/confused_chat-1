@@ -39,12 +39,12 @@ export default () => {
       <footer class="h-14 fi justify-between px-3">
         <ThemeToggle />
         <div text-xs op-40 px-2>
-          <a href="https://docs.anse.app" target="_blank" rel="noreferrer" class="hv-foreground">
-            Docs
+          <a href="https://xiaoyisenior.top" target="_blank" rel="noreferrer" class="hv-foreground">
+            迷糊实验室官网
           </a>
           <span class="px-1"> · </span>
-          <a href="https://github.com/anse-app/anse" target="_blank" rel="noreferrer" class="hv-foreground">
-            Github
+          <a href="#" target="_blank" rel="noreferrer" class="hv-foreground">
+            公众号:正经人王同学
           </a>
         </div>
       </footer>
