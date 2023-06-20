@@ -37,9 +37,9 @@ export default defineConfig({
       process.env.OUTPUT !== 'netlify' && VitePWA({
         registerType: 'autoUpdate',
         manifest: {
-          name: 'Anse',
-          short_name: 'Anse',
-          description: 'Anse is a fully optimized UI for AI Chats.',
+          name: '迷糊实验室||公众号：正经人王同学',
+          short_name: '迷糊实验室',
+          description: '迷糊实验室||专注于下一代AI范式的操作系统开发',
           theme_color: '#101010',
           background_color: '#ffffff',
           icons: [
